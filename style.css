@@ -404,7 +404,7 @@ body {
     margin: 3% 3% 3% 0;
 }
 
-.contact input[type="button"]{
+.contact input[type="submit"]{
     padding: 10px 40px;
     background-color: #c9a131;
     margin: 5% auto 0 auto;
