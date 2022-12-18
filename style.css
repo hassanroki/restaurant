@@ -1,0 +1,480 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-size: 15px;
+    font-family: 'Yeseva One', cursive;
+    background-color: #fcfcfc;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.overflow-hide {
+    overflow: hidden;
+}
+
+.row {
+    position: relative;
+}
+
+.col-1 {
+    width: 8.33%;
+    float: left;
+}
+
+.col-2 {
+    width: 16.66%;
+    float: left;
+}
+
+.col-3 {
+    width: 25%;
+    float: left;
+}
+
+.col-4 {
+    width: 33.33%;
+    float: left;
+}
+
+.col-5 {
+    width: 41.66%;
+    float: left;
+}
+
+.col-6 {
+    width: 50%;
+    float: left;
+}
+
+.col-7 {
+    width: 58.33%;
+    float: left;
+}
+
+.col-8 {
+    width: 66.66%;
+    float: left;
+}
+
+.col-9 {
+    width: 75%;
+    float: left;
+}
+
+.col-10 {
+    width: 83.33%;
+    float: left;
+}
+
+.clo-11 {
+    width: 91.66%;
+    float: left;
+}
+
+.clo-12 {
+    width: 100%;
+}
+
+.global-padding {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-left {
+    text-align: left;
+}
+
+@font-face {
+    font-family: 'Yeseva One', cursive;
+    src: url(fonts/YesevaOne-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Gentium Book Basic', serif;
+    src: url(fonts/GentiumBookBasic-Bold.ttf);
+    src: url(fonts/GentiumBookBasic-BoldItalic.ttf);
+    src: url(fonts/GentiumBookBasic-Italic.ttf);
+    src: url(fonts/GentiumBookBasic-Regular.ttf);
+}
+
+.container {
+    max-width: 1250px;
+    margin: 0 auto;
+}
+
+/* Header Section Start */
+.header {
+    position: absolute;
+    width: 100%;
+}
+
+.menubar {
+    text-align: right;
+}
+
+.menubar ul {
+    display: inline-block;
+}
+
+.menubar ul li {
+    list-style: none;
+    float: left;
+}
+
+.menubar ul li a {
+    text-decoration: none;
+    color: #FFF;
+    padding: 40px 25px;
+    font-family: 'Gentium Book Basic', serif;
+    font-size: 21px;
+    display: block;
+}
+
+.menubar ul li a:hover {
+    border-top: 5px solid #FFF;
+    padding: 35px 25px;
+}
+
+.social-icon a i {
+    color: #dab33e;
+}
+
+.menubar ul .social-icon a {
+    padding: 40px 10px;
+}
+
+.menubar ul .social-icon a:hover {
+    border-top: none;
+    padding: 40px 10px;
+}
+
+/* Header Section End */
+
+/* Slider Section  Start */
+.slider {
+    background-image: url('img/bgslider.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    padding: 190px 0 135px;
+    text-align: center;
+}
+
+.slider h1 {
+    font-family: 'Yeseva One', cursive;
+    color: #FFF;
+    font-size: 60px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.slider-btn {
+    margin-top: 25px;
+}
+
+.slider-btn a {
+    font-family: 'Gentium Book Basic', serif;
+    text-decoration: none;
+    padding: 10px 20px;
+    color: #FFF;
+    margin-right: 30px;
+    border: 1px solid #FFF;
+}
+
+.slider-btn a:hover {
+    background-color: #252425;
+    opacity: .7;
+}
+
+/* Slider Section End */
+
+/* Food Section Start */
+.food {
+    background-image: url('img/bg-food.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cooker {
+    padding: 100px 0;
+    text-align: center;
+}
+
+.cooker h2 {
+    font-family: 'Yeseva One', cursive;
+    font-size: 36px;
+    color: #cfa025;
+}
+
+.cooker img {
+    padding: 20px 0;
+}
+
+.cooker p {
+    font-family: 'Gentium Book Basic', serif;
+    font-size: 16px;
+    color: #4c4c4c;
+    padding: 0 90px;
+}
+
+.food-food img {
+    padding: 70px 0;
+    text-align: left;
+    width: 100%;
+}
+
+/* Food Section End */
+
+/* Vegetable Section Start */
+.vegetable {
+    background-image: url('img/bg-vegetable.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.vegetable-blank {
+    opacity: 0;
+}
+
+.vegetable-fine {
+    width: 31%;
+    text-align: center;
+    margin: 8% 3%;
+    background-color: #2a2420;
+    opacity: .7;
+    padding: 0 56px;
+}
+
+.vegetable-fine h2 {
+    font-family: 'Yeseva One', cursive;
+    color: #FFF;
+    font-size: 36px;
+    padding: 70px 0 20px;
+}
+
+.vegetable-fine p {
+    font-family: 'Gentium Book Basic', serif;
+    color: #FFF;
+    padding-top: 20px;
+    font-size: 16px;
+}
+
+.varieties-food img {
+    width: 80%;
+    padding: 40px 0;
+}
+
+/* Vegetable Section End */
+
+/* Food Menu Section Start */
+.food-menu {
+    padding: 100px 0;
+}
+
+.food-appetisers {
+    width: 37%;
+    text-align: center;
+    margin: 0 6.5%;
+}
+
+.food-appetisers h2 {
+    font-family: 'Yeseva One', cursive;
+    font-size: 36px;
+    color: #d0a63c;
+}
+
+.food-appetisers img {
+    padding: 10px 0;
+}
+
+.food-appetisers p {
+    font-family: 'Yeseva One', cursive;
+    font-size: 16px;
+    color: #6a6b6b;
+    padding: 15px 0;
+}
+
+.tzatsiki {
+    border-bottom: 1px solid #e3d7ac;
+}
+
+.tzatsiki p {
+    font-family: 'Yeseva One', cursive;
+    font-size: 21px;
+    color: #d0a63c;
+}
+
+/* FOod Menu Section End */
+
+/* Guest Reviews Section Start */
+.guest-reviews {
+    background-image: url('img/guest-reviews.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.reviews {
+    width: 50%;
+    margin: 6% 25%;
+    padding: 75px 0;
+    text-align: center;
+    color: #FFF;
+    background-color: #110f09;
+    opacity: .7;
+}
+
+.reviews h2 {
+    font-family: 'Yeseva One', cursive;
+    font-size: 36px;
+}
+
+.reviews img {
+    padding: 10px 0;
+}
+
+.reviews p {
+    font-family: 'Gentium Book Basic', serif;
+    padding: 0 70px;
+    font-size: 19px;
+    text-align: center;
+    line-height: 1.7;
+}
+
+.reviews p i {
+    font-size: 40px;
+    color: #9a9b99;
+}
+
+.reviews p span {
+    font-size: 16px;
+}
+/* Guest Reviews Section End */
+
+/* Right Food Section Start */
+.right-food{
+    margin: 100px 0;
+}
+
+.just-food{
+    width: 40%;
+    text-align: center;
+    margin: 0 5%;
+}
+
+.just-img img{
+    width: 90%;
+}
+
+.just-food h2{
+    font-family: 'Yeseva One', cursive;
+    font-size: 36px;
+    color: #cc9900;
+    padding-bottom: 20px;
+}
+
+.just-food p{
+    font-family: 'Gentium Book Basic', serif;
+    font-size: 16px;
+    color: #6a6b6b;
+    padding: 15px 0;
+    line-height: 1.6;
+}
+
+.contact{
+    width: 100%;
+    text-align: left;
+    color: #c9a131;
+}
+
+.contact input[type="text"], [type="email"], [type="date"], [type="number"]{
+    border: 1px solid #c9a131;
+    padding: 10px;
+    color: #6a6b6b;
+    margin: 3% 3% 3% 0;
+}
+
+.contact input[type="button"]{
+    padding: 10px 40px;
+    background-color: #c9a131;
+    margin: 5% auto 0 auto;
+    border: none;
+    display: block;
+}
+
+.contact input:focus{
+    outline: none;
+}
+
+.contact table{
+    width: 100%;
+}
+
+/* Right Food Section End */
+
+/* Footer Section Start */
+.footer-section{
+    background-color: #191919;
+    padding: 55px 0;
+}
+
+.about-us{
+    text-align: center;
+    color: #c4c4c4;
+}
+
+.about-us h2{
+    font-size: 21px;
+    font-family: 'Yeseva One', cursive;
+    padding: 0 50px;
+}
+
+.about-us img{
+    padding: 10px 0;
+}
+
+.about-us p{
+    font-family: 'Gentium Book Basic', serif;
+    font-size: 16px;
+    line-height: 1.7;
+    padding: 0 50px;
+}
+
+.about-us p span{
+    color: #FFF;
+}
+
+.opening-hours{
+    text-align: center;
+}
+
+.opening-hours ul{
+    display: inline-block;
+}
+
+.opening-hours ul li{
+    list-style: none;
+    float: left;
+}
+
+.opening-hours ul li a{
+    padding: 50px 10px 0 10px;
+    display: block;
+}
+
+.opening-hours ul li a i{
+    color: #FFF;
+}
+
+
+/* Footer Section End */

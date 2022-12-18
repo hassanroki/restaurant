@@ -1,0 +1,521 @@
+/* Max-width 1140px Start */
+@media screen and (max-width: 1140px) {
+
+    /* Header Section Start */
+    .logo {
+        width: 13.66%;
+        margin-left: 3%;
+    }
+
+    .menubar {
+        text-align: center;
+    }
+
+    .menubar ul li a {
+        padding: 40px 15px;
+    }
+
+    .menubar ul li a:hover {
+        padding: 35px 15px;
+    }
+
+    /* Header Section End */
+
+    /* Food Section Start */
+    .cooker {
+        padding: 100px 0 50px;
+    }
+
+    .cooker h2 {
+        font-size: 30px;
+    }
+
+    .cooker p {
+        font-size: 16px;
+        padding: 0 50px;
+    }
+
+    .food-food img {
+        width: 90%;
+    }
+
+    /* Food Section End */
+
+    /* Vegetable Section Start */
+    .vegetable-fine {
+        width: 30%;
+    }
+
+    /* Vegetable Section End */
+
+    /* Right Food Section Start */
+    .just-img {
+        width: 40%;
+        margin: 0 5%;
+    }
+
+    .just-food p {
+        padding: 10px 0;
+        line-height: 1.5;
+    }
+
+    /* Right Food Section End */
+}
+
+/* Max-width 1140px End */
+
+
+
+
+
+/* Max-width 960px Start */
+@media screen and (max-width: 960px) {
+
+    /* Header Section Start */
+    .logo {
+        width: 12.66%;
+    }
+
+    .logo img {
+        width: 100%;
+        padding: 25px 0;
+    }
+
+    .menubar ul li a {
+        font-size: 14px;
+    }
+
+    .menubar ul .social-icon a i {
+        color: #FFF;
+    }
+
+    /* Header Section End */
+
+    /* Food Section Start */
+
+    .food-food img {
+        padding: 150px 0;
+    }
+
+    /* Food Section End */
+
+    /* Vegetable Section Start */
+    .vegetable-fine {
+        width: 32%;
+        margin: 8% 2%;
+        padding: 0 50px;
+    }
+
+    .vegetable-fine h2 {
+        font-size: 25px;
+        padding: 40px 0 20px;
+    }
+
+    /* Vegetable Section End */
+
+    /* Guest Reviews Section Star */
+    .reviews p {
+        font-size: 16px;
+        line-height: 1.5;
+    }
+
+    /* Guest Reviews Section End */
+
+    /* Right Food Section Start */
+
+    .just-food h2 {
+        padding: 0 0;
+        padding-bottom: 10px;
+        font-size: 20px;
+    }
+
+    .just-food p {
+        font-size: 12px;
+        padding: 0;
+    }
+
+    .contact input[type="text"],
+    [type="email"],
+    [type="date"],
+    [type="number"] {
+        padding: 5px;
+        width: 140px;
+    }
+
+    /* Right Food Section End */
+}
+
+/* Max-width 960px End */
+
+
+
+
+
+/* Max-width 720px Start */
+@media screen and (max-width: 720px) {
+
+    /* Header Section Start */
+    .logo img {
+        padding: 15px 0;
+    }
+
+    .menubar ul li a {
+        font-size: 12px;
+        padding: 20px 5px;
+    }
+
+    .menubar ul li a:hover {
+        padding: 15px 5px;
+    }
+
+    .menubar ul .social-icon a {
+        padding: 20px 8px;
+    }
+
+    .menubar ul .social-icon a:hover {
+        padding: 20px 8px;
+    }
+
+    /* Header Section End */
+
+    /* Slider Section Start */
+    .slider {
+        width: 100%;
+        padding: 25px 0;
+        background-size: contain;
+    }
+
+    .slider h1 {
+        font-size: 25px;
+    }
+
+    /* Slider Section End */
+
+    /* Food Section Start */
+    .cooker {
+        padding: 50px 0;
+    }
+
+    .cooker h2 {
+        font-size: 25px;
+    }
+
+    /* Food Section End */
+
+    /* Vegetable Section Start */
+    .vegetable-blank {
+        display: none;
+    }
+
+    .vegetable-fine {
+        width: 58%;
+        margin: 8% 12%;
+    }
+
+    .vegetable-fine h2 {
+        font-size: 36px;
+    }
+
+    /* Vegetable Section End */
+
+    /* Food Menu Section Start */
+    .tzatsiki p {
+        font-size: 18px;
+    }
+
+    /* Food Menu Section End */
+
+    /* Guest Reviews Section Star */
+    .reviews p {
+        font-size: 12px;
+    }
+
+    /* Guest Reviews Section End */
+
+    /* Right Food Section Start */
+    .just-img {
+        width: 46%;
+        margin: 0 2%;
+    }
+
+    .just-food h2 {
+        padding-bottom: 5px;
+    }
+
+    .just-food p {
+        font-size: 10px;
+    }
+
+    .contact input[type="text"],
+    [type="email"],
+    [type="date"],
+    [type="number"] {
+        width: 90px;
+    }
+
+    /* Right Food Section End */
+
+    /* Footer Section Start */
+    .about {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .opening-hours {
+        width: 50%;
+    }
+
+    /* Footer Section End */
+}
+
+/* Max-width 720px End */
+
+
+
+
+
+/* Max-width 540px Start */
+@media screen and (max-width: 540px) {
+
+    /* Header Section Start */
+    .logo {
+        display: none;
+    }
+
+    .menubar ul li a {
+        font-size: 9px;
+        padding: 20px 3px;
+    }
+
+    .menubar ul li a:hover {
+        font-size: 9px;
+        padding: 15px 3px;
+    }
+
+    .menubar ul .social-icon a {
+        padding: 20px 3px;
+    }
+
+    .menubar ul .social-icon a:hover {
+        padding: 20px 3px;
+    }
+
+    /* Header Section End */
+
+    /* Slider Section Start */
+
+    .slider h1 {
+        padding-top: 20px;
+        font-size: 25px;
+        line-height: 1.2;
+    }
+
+    .slider img {
+        width: 30%;
+    }
+
+    .slider-btn a {
+        padding: 7px 8px;
+        font-size: 12px;
+        margin-right: 15px;
+    }
+
+    /* Slider Section End */
+
+    /* Food Section Start */
+
+    .cooker {
+        width: 100%;
+        float: left;
+    }
+
+    .food-food {
+        width: 100%;
+        text-align: center;
+    }
+
+    .food-food img {
+        padding: 20px 0;
+    }
+
+    /* Food Section End */
+
+    /* Vegetable Section Start */
+    .vegetable-fine {
+        width: 40%;
+        margin: 8% 22%;
+        padding: 0 30px;
+    }
+
+    .vegetable-fine h2 {
+        font-size: 15px;
+    }
+
+    .vegetable-fine p {
+        font-size: 12px;
+    }
+
+    .vegetable-fine img {
+        width: 80%;
+    }
+
+    /* Vegetable Section End */
+
+    /* Food Menu Section Start */
+    .food-appetisers {
+        width: 87%;
+    }
+
+    /* Food Menu Section End */
+
+    /* Guest Reviews Section Star */
+    .reviews {
+        width: 60%;
+        margin: 6% 20%;
+        padding: 10px 0;
+    }
+
+    .reviews h2 {
+        font-size: 15px;
+    }
+
+    .reviews p {
+        padding: 0 20px;
+    }
+
+    .reviews p span {
+        display: none;
+    }
+
+    /* Guest Reviews Section End */
+
+    /* Right Food Section Start */
+    .right-food {
+        margin: 50px 0;
+    }
+
+    .just-img {
+        width: 90%;
+        margin: 0 5%;
+    }
+
+    .just-food {
+        width: 90%;
+        margin-top: 5%;
+    }
+
+    .just-food h2 {
+        padding-bottom: 10px;
+        font-size: 30px;
+    }
+
+    .just-food p {
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    .contact input[type="text"],
+    [type="email"],
+    [type="date"],
+    [type="number"] {
+        width: 90%;
+    }
+
+    /* Right Food Section End */
+
+    /* Footer Section Start */
+    .opening-hours img {
+        width: 80%;
+    }
+
+    .opening-hours h2 {
+        font-size: 11px;
+    }
+
+    .opening-hours p {
+        font-size: 11px;
+    }
+
+    .opening-hours ul li a {
+        padding: 10px 10px 0 10px;
+        display: block;
+    }
+
+    /* Footer Section End */
+}
+
+/* Max-width 540px End */
+
+
+
+
+
+/* Max-width 360px Start */
+@media screen and (max-width: 360px) {
+
+    /* Header Section Start */
+    .menubar ul .social-icon {
+        display: none;
+    }
+
+    /* Header Section End */
+
+    /* Slider Section Start */
+    .slider {
+        padding: 10px 0 10px;
+    }
+
+    .slider h1 {
+        font-size: 12px;
+    }
+
+    .slider-btn a {
+        padding: 5px 3px;
+        font-size: 9px;
+        margin-right: 10px;
+    }
+
+    /* Slider Section End */
+
+    /* Vegetable Section Start */
+    .vegetable-fine h2 {
+        font-size: 13px;
+    }
+
+    /* Vegetable Section End */
+
+
+    /* Guest Reviews Section Star */
+    .reviews {
+        width: 88%;
+        margin: 6% 6%;
+        padding: 10px 0;
+    }
+
+    /* Guest Reviews Section End */
+
+    /* Right Food Section Start */
+    .just-food h2 {
+        font-size: 28px;
+    }
+
+    /* Right Food Section End */
+
+    /* Footer Section Start */
+    .about-us {
+        width: 100%;
+    }
+
+    .opening-hours h2 {
+        font-size: 28px;
+    }
+
+    .opening-hours p {
+        font-size: 16px;
+    }
+
+    /* Footer Section End */
+
+}
+
+/* Max-width 360px End */
