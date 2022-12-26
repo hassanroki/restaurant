@@ -22,23 +22,24 @@
 
 <body>
     <!-- Header Section Start -->
-    <div class="header overflow-hide">
+    <div class="header overflow-hide" id="Home">
         <div class="container">
             <div class="row">
                 <div class="col-2 logo">
                     <div class="global-padding">
-                        <img src="img/logo.png" alt="logo">
+                        <a href="index.html"><img src="img/logo.png" alt="logo"></a>
+                        <button id="mobile-icon"><i class="fa-solid fa-bars"></i></button>
                     </div>
                 </div>
-                <div class="col-10 menubar">
+                <div class="col-10 menubar main-menu">
                     <div class="global-padding">
                         <ul>
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">About</a></li>
-                            <li><a href="#">Igredients</a></li>
-                            <li><a href="#">Menu</a></li>
-                            <li><a href="#">Reviews</a></li>
-                            <li><a href="#">Reservations</a></li>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="#About">About</a></li>
+                            <li><a href="#Igredients">Igredients</a></li>
+                            <li><a href="#Menu">Menu</a></li>
+                            <li><a href="#Reviews">Reviews</a></li>
+                            <li><a href="#Reservations">Reservations</a></li>
                             <li class="social-icon"><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
                             <li class="social-icon"><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
                             <li class="social-icon"><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
@@ -47,7 +48,30 @@
                 </div>
             </div>
         </div>
+
+        <div class="mobile-menu">
+            <div class="container">
+                <div class="row">
+                    <div class="col-10 menubar">
+                        <div class="global-padding">
+                            <ul>
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">About</a></li>
+                                <li><a href="#">Igredients</a></li>
+                                <li><a href="#">Menu</a></li>
+                                <li><a href="#">Reviews</a></li>
+                                <li><a href="#">Reservations</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </div>
+
+
+
     <div class="clearfix"></div>
     <!-- Header Section End -->
 
@@ -83,7 +107,7 @@
                     <img src="img/food-man.png" alt="food-man">
                 </div>
                 <div class="col-6 food-food">
-                    <img src="img/food.png" alt="">
+                    <img src="img/food.png" alt="food">
                 </div>
             </div>
         </div>
@@ -92,7 +116,7 @@
     <!-- Food Section End -->
 
     <!-- Vegetable Section Start -->
-    <div class="vegetable overflow-hide">
+    <div class="vegetable overflow-hide" id="Igredients">
         <div class="container">
             <div class="row">
                 <div class="col-6 vegetable-blank">
@@ -123,7 +147,7 @@
     <!-- Vegetable Section End -->
 
     <!-- Food Menu Section Start -->
-    <div class="food-menu overflow-hide">
+    <div class="food-menu overflow-hide" id="Menu">
         <div class="container">
             <div class="row">
                 <div class="col-6 food-appetisers">
@@ -270,7 +294,7 @@
     <!-- Food Menu Section End -->
 
     <!-- Guest Reviews Section Start -->
-    <div class="guest-reviews overflow-hide">
+    <div class="guest-reviews overflow-hide" id="Reviews">
         <div class="container">
             <div class="row">
                 <div class="col-12 reviews">
@@ -289,15 +313,15 @@
     <!-- Guest Reviews Section End -->
 
     <!-- Right Food Section Start -->
-    <div class="right-food overflow-hide">
+    <div class="right-food overflow-hide" id="Reservations">
         <div class="container">
             <div class="row">
                 <div class="col-6 just-img">
                     <div class="col-12 overflow-hide">
-                        <div class="col-6">
+                        <div class="col-6 food-just-img">
                             <img src="img/rightfood-img1.jpg" alt="rightfood-img1">
                         </div>
-                        <div class="col-6">
+                        <div class="col-6 food-just-img">
                             <img src="img/rightfood-img2.jpg" alt="rightfood-img2">
                         </div>
                     </div>
@@ -344,7 +368,7 @@
     <!-- Right Food Section End -->
 
     <!-- Footer Section Start -->
-    <div class="footer-section overflow-hide">
+    <div class="footer-section overflow-hide" id="About">
         <div class="container">
             <div class="row">
                 <div class="col-4 about-us about">
@@ -387,7 +411,24 @@
 
 
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script>
+        // scroll sticky
+        $(window).scroll(function () {
+            if ($(window).scrollTop() >= 500) {
+                $('.header').addClass('stickyheader');
+            } else {
+                $('.header').removeClass('stickyheader');
+            }
+        });
 
+        // Togglemenu
+        $(document).ready(function () {
+            $("#mobile-icon").click(function () {
+                $('.mobile-menu').slideToggle(10);
+            });
+        });
+    </script>
 </body>
 
 </html>
