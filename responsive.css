@@ -1,7 +1,7 @@
-/* Max-width 1140px Start */
-@media screen and (max-width: 1140px) {
+/* Max-width 1170px*/
+@media screen and (max-width: 1170px) {
 
-    /* Header Section Start */
+    /* Header Section */
     .logo {
         width: 13.66%;
         margin-left: 3%;
@@ -11,17 +11,7 @@
         text-align: center;
     }
 
-    .menubar ul li a {
-        padding: 40px 15px;
-    }
-
-    .menubar ul li a:hover {
-        padding: 35px 15px;
-    }
-
-    /* Header Section End */
-
-    /* Food Section Start */
+    /* Food Section */
     .cooker {
         padding: 100px 0 50px;
     }
@@ -39,46 +29,55 @@
         width: 90%;
     }
 
-    /* Food Section End */
-
-    /* Vegetable Section Start */
+    /* Vegetable Section */
     .vegetable-fine {
         width: 30%;
     }
 
-    /* Vegetable Section End */
-
-    /* Right Food Section Start */
-    .just-img {
-        width: 40%;
-        margin: 0 5%;
-    }
-
+    /* Right Food Section */
     .just-food p {
         padding: 10px 0;
         line-height: 1.5;
     }
-
-    /* Right Food Section End */
 }
 
-/* Max-width 1140px End */
 
 
 
 
+/* Max-Width 1080px */
+@media screen and (max-width: 1080px) {
 
-/* Max-width 960px Start */
-@media screen and (max-width: 960px) {
+    /* Header Section */
+    .menubar ul li a {
+        padding: 40px 20px;
+    }
 
-    /* Header Section Start */
+    .menubar ul li a:hover {
+        padding: 35px 20px;
+    }
+
+    /* Right Food Section */
+    .just-food h2 {
+        font-size: 30px;
+        padding-bottom: 10px;
+    }
+}
+
+
+
+
+/* Max-width 992px */
+@media screen and (max-width: 992px) {
+
+    /* Header Section */
     .logo {
-        width: 12.66%;
+        width: 13.66%;
     }
 
     .logo img {
         width: 100%;
-        padding: 25px 0;
+        padding: 15px 0;
     }
 
     .menubar ul li a {
@@ -89,17 +88,13 @@
         color: #FFF;
     }
 
-    /* Header Section End */
-
-    /* Food Section Start */
+    /* Food Section */
 
     .food-food img {
         padding: 150px 0;
     }
 
-    /* Food Section End */
-
-    /* Vegetable Section Start */
+    /* Vegetable Section */
     .vegetable-fine {
         width: 32%;
         margin: 8% 2%;
@@ -111,27 +106,20 @@
         padding: 40px 0 20px;
     }
 
-    /* Vegetable Section End */
-
-    /* Guest Reviews Section Star */
+    /* Guest Reviews Section */
     .reviews p {
         font-size: 16px;
         line-height: 1.5;
     }
 
-    /* Guest Reviews Section End */
-
-    /* Right Food Section Start */
+    /* Right Food Section */
 
     .just-food h2 {
-        padding: 0 0;
-        padding-bottom: 10px;
-        font-size: 20px;
+        font-size: 25px;
     }
 
     .just-food p {
-        font-size: 12px;
-        padding: 0;
+        font-size: 14px;
     }
 
     .contact input[type="text"],
@@ -141,57 +129,88 @@
         padding: 5px;
         width: 140px;
     }
-
-    /* Right Food Section End */
 }
 
-/* Max-width 960px End */
 
 
 
+/* Max-Width 800px */
+@media screen and (max-width: 800px) {
 
-
-/* Max-width 720px Start */
-@media screen and (max-width: 720px) {
-
-    /* Header Section Start */
-    .logo img {
-        padding: 15px 0;
-    }
-
+    /* Header Section */
     .menubar ul li a {
-        font-size: 12px;
-        padding: 20px 5px;
+        padding: 40px 15px;
     }
 
     .menubar ul li a:hover {
-        padding: 15px 5px;
+        padding: 35px 15px;
     }
 
-    .menubar ul .social-icon a {
-        padding: 20px 8px;
+    /* Right Food Section */
+    .just-food p {
+        font-size: 12px;
+        padding: 2px 0;
+    }
+}
+
+
+
+
+/* Max-width 768px */
+@media screen and (max-width: 768px) {
+
+    /* Header Section */
+    .logo img {
+        padding: 22px 0 0;
     }
 
-    .menubar ul .social-icon a:hover {
-        padding: 20px 8px;
+    .main-menu {
+        display: none;
     }
 
-    /* Header Section End */
-
-    /* Slider Section Start */
-    .slider {
-        width: 100%;
-        padding: 25px 0;
-        background-size: contain;
-    }
-
-    .slider h1 {
+    #mobile-icon {
+        display: block;
+        bottom: 40px;
+        left: 530px;
+        padding: 3px;
         font-size: 25px;
     }
 
-    /* Slider Section End */
+    .mobile-menu .menubar {
+        text-align: center;
+        width: 400px;
+        margin: 0 0 0 100px;
+    }
 
-    /* Food Section Start */
+    .menubar ul {
+        margin: 0 0 0 60px;
+        background-color: #00a0aa;
+        width: 80%;
+    }
+
+    .menubar ul li {
+        float: none;
+    }
+
+    .menubar ul li a {
+        font-size: 15px;
+        padding: 11px 10px;
+        color: #FFF;
+        border-bottom: 1px solid #000;
+    }
+
+    .menubar ul li a:hover {
+        padding: 11px 10px;
+        border: none;
+        color: #FFF;
+        background-color: black;
+    }
+
+    .mobile-menu .menubar ul li:last-child a {
+        border-bottom: none;
+    }
+
+    /* Food Section */
     .cooker {
         padding: 50px 0;
     }
@@ -200,9 +219,7 @@
         font-size: 25px;
     }
 
-    /* Food Section End */
-
-    /* Vegetable Section Start */
+    /* Vegetable Section */
     .vegetable-blank {
         display: none;
     }
@@ -216,23 +233,17 @@
         font-size: 36px;
     }
 
-    /* Vegetable Section End */
-
-    /* Food Menu Section Start */
+    /* Food Menu Section */
     .tzatsiki p {
         font-size: 18px;
     }
 
-    /* Food Menu Section End */
-
-    /* Guest Reviews Section Star */
+    /* Guest Reviews Section */
     .reviews p {
         font-size: 12px;
     }
 
-    /* Guest Reviews Section End */
-
-    /* Right Food Section Start */
+    /* Right Food Section */
     .just-img {
         width: 46%;
         margin: 0 2%;
@@ -253,9 +264,7 @@
         width: 90px;
     }
 
-    /* Right Food Section End */
-
-    /* Footer Section Start */
+    /* Footer Section */
     .about {
         width: 100%;
         margin-bottom: 20px;
@@ -265,64 +274,92 @@
         width: 50%;
     }
 
-    /* Footer Section End */
 }
 
-/* Max-width 720px End */
 
 
 
 
+@media screen and (max-width: 640px) {
 
-/* Max-width 540px Start */
-@media screen and (max-width: 540px) {
-
-    /* Header Section Start */
+    /* Header Section */
     .logo {
-        display: none;
+        width: 20%;
     }
 
-    .menubar ul li a {
-        font-size: 9px;
-        padding: 20px 3px;
+    .logo img {
+        padding: 8px 0 0;
     }
 
-    .menubar ul li a:hover {
-        font-size: 9px;
-        padding: 15px 3px;
+    #mobile-icon {
+        bottom: 30px;
+        left: 430px;
     }
 
-    .menubar ul .social-icon a {
-        padding: 20px 3px;
+    .mobile-menu .menubar {
+        width: 300px;
     }
 
-    .menubar ul .social-icon a:hover {
-        padding: 20px 3px;
-    }
-
-    /* Header Section End */
-
-    /* Slider Section Start */
-
+    /* Slider  */
     .slider h1 {
         padding-top: 20px;
         font-size: 25px;
         line-height: 1.2;
     }
 
-    .slider img {
-        width: 30%;
+    /* Right Food Section */
+    .just-img {
+        width: 90%;
+        margin: 0 5%;
     }
 
-    .slider-btn a {
-        padding: 7px 8px;
-        font-size: 12px;
-        margin-right: 15px;
+    .just-img img {
+        padding: 0;
     }
 
-    /* Slider Section End */
+    .just-food {
+        width: 90%;
+    }
 
-    /* Food Section Start */
+    .just-food h2 {
+        padding-top: 20px;
+        font-size: 30px;
+    }
+
+    .just-food p {
+        font-size: 15px;
+    }
+
+    .contact input[type="text"],
+    [type="email"],
+    [type="date"],
+    [type="number"] {
+        width: 250px;
+        padding: 10px;
+    }
+}
+
+
+
+
+/* Max-width 525px */
+@media screen and (max-width: 525px) {
+
+    /* Header Section */
+    .logo img {
+        padding: 22px 0 0;
+    }
+
+    #mobile-icon {
+        bottom: 35px;
+        left: 330px;
+    }
+
+    .mobile-menu .menubar {
+        width: 200px;
+    }
+
+    /* Food Section */
 
     .cooker {
         width: 100%;
@@ -338,9 +375,7 @@
         padding: 20px 0;
     }
 
-    /* Food Section End */
-
-    /* Vegetable Section Start */
+    /* Vegetable Section */
     .vegetable-fine {
         width: 40%;
         margin: 8% 22%;
@@ -359,16 +394,12 @@
         width: 80%;
     }
 
-    /* Vegetable Section End */
-
-    /* Food Menu Section Start */
+    /* Food Menu Section */
     .food-appetisers {
         width: 87%;
     }
 
-    /* Food Menu Section End */
-
-    /* Guest Reviews Section Star */
+    /* Guest Reviews Section */
     .reviews {
         width: 60%;
         margin: 6% 20%;
@@ -387,43 +418,16 @@
         display: none;
     }
 
-    /* Guest Reviews Section End */
-
-    /* Right Food Section Start */
-    .right-food {
-        margin: 50px 0;
-    }
-
-    .just-img {
-        width: 90%;
-        margin: 0 5%;
-    }
-
-    .just-food {
-        width: 90%;
-        margin-top: 5%;
-    }
-
-    .just-food h2 {
-        padding-bottom: 10px;
-        font-size: 30px;
-    }
-
-    .just-food p {
-        font-size: 16px;
-        padding: 10px;
-    }
+    /* Right Food Section */
 
     .contact input[type="text"],
     [type="email"],
     [type="date"],
     [type="number"] {
-        width: 90%;
+        width: 80%;
     }
 
-    /* Right Food Section End */
-
-    /* Footer Section Start */
+    /* Footer Section */
     .opening-hours img {
         width: 80%;
     }
@@ -441,67 +445,67 @@
         display: block;
     }
 
-    /* Footer Section End */
 }
 
-/* Max-width 540px End */
 
 
 
+/* Max-Width: 480px */
+@media screen and (max-width: 480px) {
 
-
-/* Max-width 360px Start */
-@media screen and (max-width: 360px) {
-
-    /* Header Section Start */
-    .menubar ul .social-icon {
-        display: none;
+    /* Header Section */
+    #mobile-icon {
+        bottom: 35px;
+        left: 280px;
     }
 
-    /* Header Section End */
-
-    /* Slider Section Start */
-    .slider {
-        padding: 10px 0 10px;
-    }
-
-    .slider h1 {
-        font-size: 12px;
+    .mobile-menu .menubar {
+        width: 250px;
+        margin: 0 35px;
     }
 
     .slider-btn a {
-        padding: 5px 3px;
-        font-size: 9px;
-        margin-right: 10px;
+        padding: 10px 10px;
+        margin-right: 15px;
+        border: 1px solid #FFF;
+        font-size: 12px;
+    }
+}
+
+
+
+
+
+/* Max-width 360px */
+@media screen and (max-width: 360px) {
+
+    /* Header Section */
+
+    .logo img {
+        padding-top: 41px;
     }
 
-    /* Slider Section End */
-
-    /* Vegetable Section Start */
-    .vegetable-fine h2 {
-        font-size: 13px;
+    #mobile-icon {
+        left: 250px;
     }
 
-    /* Vegetable Section End */
+    .mobile-menu .menubar {
+        width: 200px;
+    }
 
-
-    /* Guest Reviews Section Star */
+    /* Guest Reviews Section */
     .reviews {
         width: 88%;
         margin: 6% 6%;
         padding: 10px 0;
     }
 
-    /* Guest Reviews Section End */
-
     /* Right Food Section Start */
     .just-food h2 {
         font-size: 28px;
     }
 
-    /* Right Food Section End */
-
-    /* Footer Section Start */
+    /* Footer Section */
     .about-us {
         width: 100%;
     }
@@ -514,8 +518,23 @@
         font-size: 16px;
     }
 
-    /* Footer Section End */
-
 }
 
-/* Max-width 360px End */
+/* Max-Width: 320px */
+@media screen and (max-width: 320px) {
+
+    /* Header Section */
+    .logo img {
+        padding-top: 41px;
+    }
+
+    #mobile-icon {
+        left: 230px;
+    }
+
+
+    .mobile-menu .menubar {
+        width: 200px;
+        margin: 0 20px;
+    }
+}
