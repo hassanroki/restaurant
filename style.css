@@ -225,10 +225,10 @@ body {
     background-image: url('img/bg-food.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    padding: 100px 0 70px;
 }
 
 .cooker {
-    padding: 100px 0;
     text-align: center;
 }
 
@@ -239,19 +239,18 @@ body {
 }
 
 .cooker img {
-    padding: 20px 0;
+    padding-top: 20px;
 }
 
 .cooker p {
     font-family: 'Gentium Book Basic', serif;
     font-size: 16px;
     color: #4c4c4c;
-    padding: 0 90px;
+    line-height: 1.7;
+    padding: 20px 0;
 }
 
 .food-food img {
-    padding: 70px 0;
-    text-align: left;
     width: 100%;
 }
 
@@ -300,13 +299,14 @@ body {
 
 /* Food Menu Section Start */
 .food-menu {
-    padding: 100px 0;
+    padding: 100px 0 50px;
 }
 
 .food-appetisers {
     width: 37%;
     text-align: center;
     margin: 0 6.5%;
+    padding-bottom: 50px;
 }
 
 .food-appetisers h2 {
@@ -427,16 +427,17 @@ body {
     border: 1px solid #c9a131;
     padding: 10px;
     color: #6a6b6b;
-    margin: 3% 3% 3% 0;
-    width: 170px;
+    margin: 3% 7% 3% 0;
+    width: 86%;
 }
 
 .contact input[type="submit"] {
     padding: 10px 40px;
     background-color: #c9a131;
-    margin: 2% auto 0 auto;
+    margin: 6% auto 0 auto;
     border: none;
     display: block;
+    color: #FFF;
 }
 
 .contact input:focus {

@@ -12,17 +12,13 @@
     }
 
     /* Food Section */
-    .cooker {
-        padding: 100px 0 50px;
-    }
 
     .cooker h2 {
         font-size: 30px;
     }
 
     .cooker p {
-        font-size: 16px;
-        padding: 0 50px;
+        padding: 0 10%;
     }
 
     .food-food img {
@@ -88,12 +84,6 @@
         color: #FFF;
     }
 
-    /* Food Section */
-
-    .food-food img {
-        padding: 150px 0;
-    }
-
     /* Vegetable Section */
     .vegetable-fine {
         width: 32%;
@@ -120,14 +110,7 @@
 
     .just-food p {
         font-size: 14px;
-    }
-
-    .contact input[type="text"],
-    [type="email"],
-    [type="date"],
-    [type="number"] {
-        padding: 5px;
-        width: 140px;
+        line-height: 1.5;
     }
 }
 
@@ -160,8 +143,13 @@
 @media screen and (max-width: 768px) {
 
     /* Header Section */
+    .header {
+        min-height: 65px;
+    }
+
     .logo img {
-        padding: 22px 0 0;
+        padding: 15px 0 0;
+        width: 55%;
     }
 
     .main-menu {
@@ -170,22 +158,24 @@
 
     #mobile-icon {
         display: block;
-        bottom: 40px;
-        left: 530px;
-        padding: 3px;
-        font-size: 25px;
+        bottom: 21px;
+        left: 660px;
+        padding: 0px 3px;
+        font-size: 16px;
+    }
+
+    .mobile-menu {
+        width: 100%;
+        z-index: 9999;
     }
 
     .mobile-menu .menubar {
         text-align: center;
-        width: 400px;
-        margin: 0 0 0 100px;
     }
 
     .menubar ul {
-        margin: 0 0 0 60px;
         background-color: #00a0aa;
-        width: 80%;
+        width: 100%;
     }
 
     .menubar ul li {
@@ -211,7 +201,7 @@
     }
 
     /* Food Section */
-    .cooker {
+    .food {
         padding: 50px 0;
     }
 
@@ -225,22 +215,39 @@
     }
 
     .vegetable-fine {
-        width: 58%;
+        width: 63%;
         margin: 8% 12%;
+        opacity: .5;
     }
 
     .vegetable-fine h2 {
         font-size: 36px;
     }
 
+    .vegetable-fine p {
+        font-size: 16px;
+        line-height: 1.7;
+    }
+
     /* Food Menu Section */
+    .food-menu {
+        padding: 50px 0 0;
+    }
+
     .tzatsiki p {
         font-size: 18px;
     }
 
     /* Guest Reviews Section */
+    .reviews {
+        width: 76%;
+        margin: 8% 12%;
+        opacity: .5;
+    }
+
     .reviews p {
-        font-size: 12px;
+        padding: 0 50px;
+        font-size: 16px;
     }
 
     /* Right Food Section */
@@ -254,17 +261,14 @@
     }
 
     .just-food p {
-        font-size: 10px;
-    }
-
-    .contact input[type="text"],
-    [type="email"],
-    [type="date"],
-    [type="number"] {
-        width: 90px;
+        font-size: 12px;
     }
 
     /* Footer Section */
+    .right-food {
+        margin: 50px 0;
+    }
+
     .about {
         width: 100%;
         margin-bottom: 20px;
@@ -283,21 +287,24 @@
 @media screen and (max-width: 640px) {
 
     /* Header Section */
-    .logo {
-        width: 20%;
+    .header {
+        min-height: 55px;
     }
 
     .logo img {
-        padding: 8px 0 0;
+        padding: 21px 0 0;
     }
 
     #mobile-icon {
-        bottom: 30px;
-        left: 430px;
+        left: 550px;
     }
 
-    .mobile-menu .menubar {
-        width: 300px;
+    .menubar ul li a {
+        padding: 8px 10px;
+    }
+
+    .menubar ul li a:hover {
+        padding: 8px 10px;
     }
 
     /* Slider  */
@@ -307,14 +314,33 @@
         line-height: 1.2;
     }
 
+    /* Vegetable Section */
+    .vegetable-fine {
+        width: 65%;
+        margin: 8% 10%;
+    }
+
+    /* Guest Reviews Section */
+    .reviews {
+        width: 80%;
+        margin: 8% 10%;
+    }
+
     /* Right Food Section */
     .just-img {
-        width: 90%;
-        margin: 0 5%;
+        width: 94%;
+        margin: 0 3%;
+    }
+
+    .food-just-img {
+        width: 46%;
+        padding: 0 2%;
     }
 
     .just-img img {
-        padding: 0;
+        width: 100%;
+        padding-right: 0;
+        padding-left: 0;
     }
 
     .just-food {
@@ -330,14 +356,11 @@
         font-size: 15px;
     }
 
-    .contact input[type="text"],
-    [type="email"],
-    [type="date"],
-    [type="number"] {
-        width: 250px;
-        padding: 10px;
+    .contact {
+        padding-top: 50px;
     }
 }
+
 
 
 
@@ -347,16 +370,23 @@
 
     /* Header Section */
     .logo img {
-        padding: 22px 0 0;
+        padding: 18px 0 0;
     }
 
     #mobile-icon {
-        bottom: 35px;
-        left: 330px;
+        left: 430px;
+        bottom: 18px;
+        padding: 0px 1px;
+        font-size: 12px;
     }
 
-    .mobile-menu .menubar {
-        width: 200px;
+    .mobile-menu .menubar ul li a {
+        padding: 5px 10px;
+        font-size: 14px;
+    }
+
+    .menubar ul li a:hover {
+        padding: 5px 10px;
     }
 
     /* Food Section */
@@ -372,27 +402,15 @@
     }
 
     .food-food img {
-        padding: 20px 0;
+        padding-top: 50px;
     }
 
     /* Vegetable Section */
     .vegetable-fine {
-        width: 40%;
-        margin: 8% 22%;
-        padding: 0 30px;
+        width: 61%;
+        margin: 9% 10%;
     }
 
-    .vegetable-fine h2 {
-        font-size: 15px;
-    }
-
-    .vegetable-fine p {
-        font-size: 12px;
-    }
-
-    .vegetable-fine img {
-        width: 80%;
-    }
 
     /* Food Menu Section */
     .food-appetisers {
@@ -401,30 +419,8 @@
 
     /* Guest Reviews Section */
     .reviews {
-        width: 60%;
-        margin: 6% 20%;
-        padding: 10px 0;
-    }
-
-    .reviews h2 {
-        font-size: 15px;
-    }
-
-    .reviews p {
-        padding: 0 20px;
-    }
-
-    .reviews p span {
-        display: none;
-    }
-
-    /* Right Food Section */
-
-    .contact input[type="text"],
-    [type="email"],
-    [type="date"],
-    [type="number"] {
         width: 80%;
+        margin: 9% 10%;
     }
 
     /* Footer Section */
@@ -454,21 +450,23 @@
 @media screen and (max-width: 480px) {
 
     /* Header Section */
+    .logo img {
+        width: 90%;
+    }
+
     #mobile-icon {
-        bottom: 35px;
-        left: 280px;
+        left: 400px;
+        bottom: 19px;
     }
 
-    .mobile-menu .menubar {
-        width: 250px;
-        margin: 0 35px;
-    }
-
-    .slider-btn a {
-        padding: 10px 10px;
-        margin-right: 15px;
-        border: 1px solid #FFF;
+    .mobile-menu .menubar ul li a {
         font-size: 12px;
+    }
+
+    /* Vegetable Section */
+    .vegetable-fine {
+        width: 69.5%;
+        margin: 9% 5%;
     }
 }
 
@@ -480,17 +478,35 @@
 @media screen and (max-width: 360px) {
 
     /* Header Section */
-
     .logo img {
-        padding-top: 41px;
+        width: 100%;
+        padding: 20px 0 0;
     }
 
     #mobile-icon {
-        left: 250px;
+        left: 290px;
+        bottom: 16px;
     }
 
-    .mobile-menu .menubar {
-        width: 200px;
+    /* Slider Section */
+    .slider {
+        padding: 135px 0 135px;
+    }
+
+    .slider-btn a {
+        padding: 5px 10px;
+        margin-right: 10px;
+        font-size: 12px;
+    }
+
+    /* Vegetable Section */
+    .vegetable-fine {
+        width: 62.5%;
+        margin: 9% 5%;
+    }
+
+    .vegetable-fine h2 {
+        font-size: 28px;
     }
 
     /* Guest Reviews Section */
@@ -522,19 +538,28 @@
 
 /* Max-Width: 320px */
 @media screen and (max-width: 320px) {
+    .header {
+        line-height: 31px;
+    }
 
-    /* Header Section */
     .logo img {
-        padding-top: 41px;
+        width: 100%;
+        padding: 20px 0 0;
     }
 
     #mobile-icon {
-        left: 230px;
+        left: 250px;
+        bottom: 21px;
+        font-size: 12px;
     }
 
+    /* Vegetable Section */
+    .vegetable-fine {
+        width: 59%;
+        margin: 9% 5%;
+    }
 
-    .mobile-menu .menubar {
-        width: 200px;
-        margin: 0 20px;
+    .vegetable-fine h2 {
+        font-size: 24px;
     }
 }
